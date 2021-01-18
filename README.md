@@ -11,10 +11,12 @@ crawler for diverse data
 
 - egloos blog crawler
 
-
 ## How to use
 
 ```shell
 cd sample_spider
 scrapy runspider quote.py -o quotes.jl
+
+cd blog_spider
+scrapy runspider egloos.py -o egloos.json
 ```
