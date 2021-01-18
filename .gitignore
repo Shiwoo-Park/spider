@@ -1,8 +1,10 @@
 /venv/
 /.idea/
+/resources/
 __pycache__/
+/tmp/
+!/tmp/__init__.py
+
 *.log
 *.json
 *.jl
-/tmp/
-!/tmp/__init__.py
