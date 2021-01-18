@@ -18,5 +18,5 @@ cd sample_spider
 scrapy runspider quote.py -o quotes.jl
 
 cd blog_spider
-scrapy runspider egloos.py -o egloos.json
+scrapy runspider egloos.py -a user_id=oniondev -o egloos_oniondev.json
 ```
